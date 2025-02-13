@@ -5,100 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="style/style.css">
 
 
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
 
-        nav {
-            background-color: #007BFF;
-            padding: 10px;
-            text-align: center;
-            border-radius: 5px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        section {
-            margin: 20px 0;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border-radius: 8px;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-            border-radius: 10px;
-        }
-
-        h1, h2, h3 {
-            text-align: center;
-            color: #007BFF;
-        }
-
-        ul {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-
-        .download-btn {
-            display: inline-block;
-            background-color: #28a745;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            text-align: center;
-            margin: 20px auto;
-            display: block;
-        }
-
-        .download-btn:hover {
-            background-color: #218838;
-        }
-
-        hr {
-            border: none;
-            height: 1px;
-            background-color: #ccc;
-            margin: 20px 0;
-        }
-    </style>
+    
 </head>
 <body>
     <div class="container">
- 
-        <img loading="lazy" src="assets/img/logo.png" alt="Describe image here" width="400" height="400">
-
-        <hr>
+        <img loading="lazy" src="assets/img/log.jpg" alt="Logo" width="200" height="200">
+        <div class="logo-text">
+            <span class="name">ADWIT ROUT</span>
+            <span class="title">WEB DEVELOPER</span>
+        </div>
+    </div>
 
         <nav>
             <a href="#about">About</a>
@@ -108,21 +30,47 @@
         </nav>
     
 
-        <hr>
-
         
-            <section id="about">
+            <!-- <section id="about">
                 <img src="https://img.freepik.com/free-vector/it-job-concept-illustration_114360-27000.jpg?t=st=1739348893~exp=1739352493~hmac=d4fc380ac217a9584cdf768760bf0a60d477f98cda81bcfe09480f44f18ea166&w=740" alt="Describe image here" width="400" height="400">
                 
                 <h1>Adwit</h1>
 
                 <h2>Web Developer</h2>
                 <p>Passionate about building responsive and user-friendly websites.</p>
+            </section> -->
+
+
+
+
+            <section id="about" class="about-container">
+                <img src="https://img.freepik.com/free-vector/it-job-concept-illustration_114360-27000.jpg" alt="IT Job Illustration">
+                <div class="about-text">
+                    <!-- <h1>Adwit</h1>
+                    <h2>Web Developer</h2> -->
+                    <p>Passionate about building responsive and user-friendly websites.</p>
+                    <p>A versatile, hardworking individual; driven to meet or exceed a company's expectations to deliver high-quality software products. Experienced in Java, JavaScript, Swift, SQL, Go, and Python. An effective listener that can communicate technical information in an easily understandable way.</p>
+                    <a href="portfolio.pdf" download class="download-btn">Download Portfolio (PDF)</a>
+
+                </div>
             </section>
 
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <!-- <a href="portfolio.pdf" download class="download-btn">Download Portfolio (PDF)</a> -->
 
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            
+        
+        <section id="skills">
+            <h3>Skills</h3>
+            <div class="skills-container">
+                <button class="skill-btn">HTML</button>
+                <button class="skill-btn">CSS</button>
+                <button class="skill-btn">JavaScript</button>
+                <button class="skill-btn">Java</button>
+            </div>
+        </section>
+        
+      
+
         <section id="projects">
             <h3>Projects</h3>
             <ul>
@@ -133,16 +81,14 @@
         </section>
 
 
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+        
 
         <section id="contact">
             <h3>Contact</h3>
             <p>Email: adwit@gmail.com</p>
         </section>
 
-        <a href="portfolio.pdf" download class="download-btn">Download Portfolio (PDF)</a>
+        
     </div>
 </body>
 </html>
